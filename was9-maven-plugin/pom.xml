@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.greco.plugins</groupId>
   <artifactId>was9-maven-plugin</artifactId>
-  <version>1.0.9</version>
+  <version>9.0.0.2</version>
   <name>plugin was 9.0.0.2</name>
   <description>plugin de maven para el despliegue automático en Websphere 9.0.0.2  de los war</description>
   <packaging>maven-plugin</packaging>
