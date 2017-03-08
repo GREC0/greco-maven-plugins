@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.greco.plugins</groupId>
   <artifactId>caller-jenkins-plugin</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <name>caller-jenkins-greco-plugin</name>
   <description>plugin de greco que llama via HTTP a jobs de Jenkins</description>
   <packaging>maven-plugin</packaging>
