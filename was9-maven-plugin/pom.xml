@@ -3,13 +3,10 @@
   <groupId>com.greco.plugins</groupId>
   <artifactId>was9-maven-plugin</artifactId>
   <version>1.0.9</version>
-  <name>plugin was 9.0</name>
-  <description>plugin de maven para el despliegue automático en Websphere 9.0  de los war</description>
+  <name>plugin was 9.0.0.2</name>
+  <description>plugin de maven para el despliegue automático en Websphere 9.0.0.2  de los war</description>
   <packaging>maven-plugin</packaging>
-<!--   <issueManagement> -->
-<!--     <url>https://github.com/orctom/was-maven-plugin/issues</url> -->
-<!--     <system>GitHub</system> -->
-<!--   </issueManagement> -->
+
 
   <licenses>
     <license>
@@ -19,12 +16,6 @@
     </license>
   </licenses>
 
-  <scm>
-    <url>https://github.com/orctom/was-maven-plugin/</url>
-    <connection>scm:git:git@github.com:orctom/was-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:orctom/was-maven-plugin.git</developerConnection>
-    <tag>1.1.3.2</tag>
-  </scm>
 
   <developers>
     <developer>
@@ -99,25 +90,7 @@
        </configuration>
    </plugin>
             
-<!--       <plugin> -->
-<!--         <groupId>org.apache.maven.plugins</groupId> -->
-<!--         <artifactId>maven-plugin-plugin</artifactId> -->
-<!--         <version>3.2</version> -->
-<!--         <configuration> -->
-<!--           <goalPrefix>was</goalPrefix> -->
-<!--           <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> -->
-<!--         </configuration> -->
-<!--         <executions> -->
-<!--         	<execution> -->
-<!-- 	        	<id>mojo-descriptor</id> -->
-<!-- 	            <phase>process-classes</phase> -->
-<!-- 	            <goals> -->
-<!-- 	              <goal>descriptor</goal> -->
-<!-- 	            </goals> -->
-<!-- 	            <configuration></configuration> -->
-<!--         	</execution> -->
-<!--         </executions> -->
-<!--       </plugin> -->
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -280,15 +253,6 @@
       <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
-<!--      <dependency> -->
-<!-- 	  <groupId>com.greco.plugins</groupId> -->
-<!-- 	  <artifactId>orb</artifactId> -->
-<!-- 	  <version>9.0</version> -->
-<!-- 	</dependency> -->
-<!-- 	 <dependency> -->
-<!-- 	  <groupId>com.greco.plugins</groupId> -->
-<!-- 	  <artifactId>client</artifactId> -->
-<!-- 	  <version>9.0</version> -->
-<!-- 	</dependency> -->
+
   </dependencies>
 </project>
