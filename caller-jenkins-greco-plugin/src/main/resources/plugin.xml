@@ -7,7 +7,7 @@
   <description>Maven plugin to calling jog from jenkins</description>
   <groupId>com.greco.plugins</groupId>
   <artifactId>caller-jenkins-plugin</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.4</version>
   <goalPrefix>jenkins</goalPrefix>
   <isolatedRealm>false</isolatedRealm>
   <inheritedByDefault>true</inheritedByDefault>
