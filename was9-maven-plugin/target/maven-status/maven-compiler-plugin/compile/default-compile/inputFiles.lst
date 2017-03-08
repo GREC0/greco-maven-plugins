@@ -1,0 +1,11 @@
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\service\IWebSphereService.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\model\WebSphereServiceException.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\utils\CommandUtils.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\utils\AntTaskUtils.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\utils\PropertiesUtils.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\WASDeployMojo.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\model\WebSphereModel.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\AbstractWASMojo.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\Constants.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\utils\AntXmlPlexusConfigurationWriter.java
+C:\java_projects\workspace_java_8\was9-maven-plugin\src\main\java\com\orctom\mojo\was\impl\WebSphereServiceScriptImpl.java

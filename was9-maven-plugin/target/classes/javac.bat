@@ -1,0 +1,1 @@
+cmd.exe /X /C ""C:\Program Files\Java\jdk1.8.0_31\jre\..\bin\javac.exe" @C:/java_projects/workspace_java_8/was9-maven-plugin/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler2521688652318410809arguments -J-Xmx1024m"

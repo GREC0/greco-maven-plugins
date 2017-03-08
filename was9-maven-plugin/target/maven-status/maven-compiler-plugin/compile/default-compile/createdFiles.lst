@@ -1,0 +1,17 @@
+com\orctom\mojo\was\utils\PropertiesUtils.class
+com\orctom\mojo\was\model\WebSphereServiceException.class
+com\orctom\mojo\was\utils\AntTaskUtils.class
+com\orctom\mojo\was\WASDeployMojo.class
+com\orctom\mojo\was\Constants.class
+org.codehaus.plexus.compiler.javac.JavacCompiler2521688652318410809arguments
+com\orctom\mojo\was\impl\WebSphereServiceScriptImpl.class
+com\orctom\mojo\was\WASDeployMojo$1.class
+com\orctom\mojo\was\AbstractWASMojo.class
+com\orctom\mojo\was\utils\PropertiesUtils$SectionedProperties.class
+com\orctom\mojo\was\service\IWebSphereService.class
+com\orctom\mojo\was\utils\CommandUtils$1.class
+com\orctom\mojo\was\model\WebSphereModel.class
+com\orctom\mojo\was\utils\CommandUtils.class
+com\orctom\mojo\was\utils\AntXmlPlexusConfigurationWriter.class
+com\orctom\mojo\was\impl\WebSphereServiceScriptImpl$StringStreamConsumer.class
+javac.bat
