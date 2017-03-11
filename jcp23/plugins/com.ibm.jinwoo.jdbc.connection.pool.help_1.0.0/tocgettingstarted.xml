@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Getting Started" link_to="toc.xml#gettingstarted"> 
+	<topic label="Overview"  href="html/gettingstarted/maintopic.html"> 
+	</topic>
+	<topic label="Enabling a WebSphere Application Server trace">
+		<topic label="Releases of V6.1 and V6.0" href="html/gettingstarted/subtopic2.html" />
+		<topic label="Releases of V5" href="html/gettingstarted/subtopic.html" />
+	</topic>
+	<topic label="Starting the tool"  href="html/gettingstarted/starting.html"> 
+	</topic> 
+</toc>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Starting the tool</title>
+</head>
+
+<body>
+<h1>Starting the tool</h1>
+<ol>
+<li> Create a directory
+<li> Uncompress the package
+<li> Run jcp executable. jcp.exe for example
+<BR> If you get Java heap exhaustion due to large trace, please use -vmargs -Xmx option to increase Java Heap.
+<BR> For example, jcp -vmargs -Xmx1024m will allocate 1 GB of Java heap to the tool environment
+<BR>
+<BR> If you want to process traces taken from different locale, please specify locale by using -nl or -Duser.language and -Duser.country option when you start the tool. Otherwise, you could encounter date parsing problems or incorrect date and time.
+<BR> You can find supported locales at <a href="http://java.sun.com/javase/6/docs/technotes/guides/intl/locale.doc.html">http://java.sun.com/javase/6/docs/technotes/guides/intl/locale.doc.html</a>
+<BR> For example, jcp -nl de_DE will start the tool with German locale in order to parse German trace on non-German machine.
+<BR> "jcp -vmargs -Duser.language=de -user.country=DE" can be also used to set German locale environment.
+<BR>
+<BR> The tool requires Java Runtime Environment 5.0 or higher. If your default Java Runtime Environment is not 5.0, please use -vm option to allow the tool to find Java Runtime Environment. 
+<BR> For example, jcp -vm c:\java5\bin\java.exe
+<P>The following is the screenshot of the tool
+<P><img src="init.PNG" alt="Initial screen" border="1">
+<P><li> Select menus, File -> Open or open button
+<P><img src="openmenu.PNG" alt="File open" border="0">
+<P><li> Select WebSphere Application Server trace file
+<P><img src="open.PNG" alt="Open trace" border="0">
+<P><li> Trace file is being processed
+<P><img src="processing.PNG" alt="Processing trace" border="0">
+<P><li> Analysis is completed. 
+Number of connections are shown in Connection View.<P><img src="analysis.PNG" alt="Analysis View" border="0">
+<P><li> Select Help menu to get more information
+<P><img src="about.PNG" alt="Help" border="0">
+</ol>
+</body>
+</html>
